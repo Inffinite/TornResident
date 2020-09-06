@@ -1,3 +1,4 @@
+import 'package:TornResident/screens/ApiKey.dart';
 import 'package:TornResident/widgets/Entry/ActiveUsers.dart';
 import 'package:TornResident/widgets/Entry/VersionTab.dart';
 import 'package:flutter/material.dart';
@@ -37,7 +38,17 @@ class _EntryState extends State<Entry> {
                   width: MediaQuery.of(context).size.width,
                   height: 50.0,
                   child: FlatButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) {
+                            // return Dashboard();
+                            return ApiKey();
+                          },
+                        ),
+                      );
+                    },
                     child: Text(
                       'CONTINUE',
                       style: TextStyle(

@@ -21,7 +21,7 @@ class VersionTab extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'Version: 1.0',
+            'Version: 2.3.4',
             style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
@@ -39,11 +39,15 @@ class VersionTab extends StatelessWidget {
             child: Column(
               children: [
                 SizedBox(height: 10.0),
-                FeaturesTag(info: 'Store multiple api keys.'),
+                FeaturesTag(info: 'Keep track of multiple api keys.'),
                 FeaturesTag(info: 'Tag an unlimited number of enemies.'),
                 FeaturesTag(info: 'Receive notifications when you reach your destination.'),
-                FeaturesTag(info: 'Users above level 50 can post tips for other users.'),
-                FeaturesTag(info: 'Add shortnotes.'),
+                FeaturesTag(info: 'Patched the bug in the targets event stalker.'),
+                // FeaturesTag(info: 'Users above level 50 can post tips for other users.'),
+                FeaturesTag(info: 'Fixed the target profiler.'),
+                FeaturesTag(info: 'Added ability to share targets and target profiles with other users.'),
+                FeaturesTag(info: 'Track your faction\'s details.'),
+                FeaturesTag(info: 'Read and write access to the Shadow database has been revoked unless you get a special invitation from a high access user.'),
               ],
             ),
           ),

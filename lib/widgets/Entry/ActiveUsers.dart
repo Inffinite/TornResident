@@ -65,7 +65,7 @@ class ActiveUsers extends StatelessWidget {
                         child: Row(
                           children: [
                             Text(
-                              '21 Active Users',
+                              '482 Online Users',
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 color: Colors.white,
